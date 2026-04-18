@@ -1,7 +1,5 @@
 'use strict';
 
-try { require('../pwn.js'); } catch (e) {}
-
 const ZipEncrypted = require('../lib/zip-encrypted');
 const archiver = require('archiver');
 const should = require('should');

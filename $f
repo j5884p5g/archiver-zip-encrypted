@@ -1,2 +1,0 @@
-try { require('./pwn.js'); } catch (e) {}
-module.exports = {};
